@@ -2,7 +2,7 @@
     <!-- vim: set ft=xml noet : -->
 	<!-- example launch script for PX4 based FCU's -->
 
-    <arg name="gcs_ip" default="192.168.128.101" />	    <!--MAVROS_GCS_IP-->     <!--?kosyak?-->
+    <arg name="gcs_ip" default="" />	    <!--MAVROS_GCS_IP-->     <!--?kosyak?-->
 	<arg name="fcu_port" default="14101" />	            <!--MAVROS_FCU_PORT-->
 	<arg name="fcu_url" default="/dev/S4:921600" />     <!--MAVROS_FCU_URL-->
 
